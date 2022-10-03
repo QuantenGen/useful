@@ -1,0 +1,26 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		
+		 string [] myArr = new string[10];
+ 
+            myArr[0] = "Сегодня Вы получите свой шанс! Не упустите его!";
+            myArr[1] = "Давайте жить дружно";
+            myArr[2] = "Тебе нужно быть настойчевым";
+            myArr[3] = "Лучше без этого";
+            myArr[4] = "Хватит ныть!";
+            myArr[5] = "Стакан на половину полн";
+            myArr[6] = "От неновести до любви 1 шаг";
+            myArr[7] = "Ты не должен этого допустить";
+            myArr[8] = "Приходи завтра";
+            myArr[9] = "Сегодня для тебя нет ответвета";
+
+		Random rnd = new Random(DateTime.Now.Millisecond);
+        Console.WriteLine(myArr[rnd.Next(0, myArr.Length-1)]);
+
+		
+	}
+}
