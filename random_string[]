@@ -21,6 +21,13 @@ public class Program
 		Random rnd = new Random(DateTime.Now.Millisecond);
         Console.WriteLine(myArr[rnd.Next(0, myArr.Length-1)]);
 
+		//or so
+		//string[] znak = { "Sunday", "Monday", "Tuersday", "Wednesday", "Thirsday", "Friday", "Saturday" };
+		//Random rnd = new Random(DateTime.Now.Millisecond);
+        	//Console.WriteLine(znak[rnd.Next(0, znak.Length-1)]);
+
+
+
 		
 	}
 }
